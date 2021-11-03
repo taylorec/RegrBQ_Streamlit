@@ -38,7 +38,7 @@ if gender == 'Male':
 elif gender == 'Female':
     gender = 1
 elif gender == 'Unknown':
-    gender == 2
+    gender = 2
 
 if hour == '12am':
     hour = 0
