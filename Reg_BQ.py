@@ -25,7 +25,7 @@ hour = st.selectbox('Closest hour of trip start', ['12am', '1am', '2am', '3am',
                                                     '4pm', '5pm', '6pm', '7pm',
                                                     '8pm', '9pm', '10pm', '11pm'])
 month = st.selectbox('Month of trip', ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June',
-                                        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
+                                        'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
 day = st.selectbox('Day of trip', ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'])
 
 if usertype == 'Customer':
@@ -99,9 +99,9 @@ if month == 'Apr':
     month = 3
 if month == 'May':
     month = 4
-if month == 'Jun':
+if month == 'June':
     month = 5
-if month == 'Jul':
+if month == 'July':
     month = 6
 if month == 'Aug':
     month = 7
