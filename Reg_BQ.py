@@ -8,8 +8,8 @@ Created on Tue Sep 21 20:49:35 2021
 import streamlit as st
 import joblib
 
-st.title('Trip Length Predictor')
-st.write("This app predicts the length of a trip duration from the new_york_citibike.citibike_trips database pulled from Google BigQuery.")
+st.title('Prediction of Trip Duration in Minutes')
+st.write("This application predicts the duration of a bike trip. Original data comes from Google BigQuery new_york_citibike.citibike_trips database.")
  
 loaded_GBr = joblib.load('GBr.joblib')
 
